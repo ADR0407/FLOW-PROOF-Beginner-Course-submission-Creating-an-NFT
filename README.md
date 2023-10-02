@@ -16,8 +16,9 @@ Now the exection step are
 Deploy: 
 1. Deploy NonFungibleToken.cdc at 0x06 
 2. Deploy CryptoPoops.cdc at 0x05
-3. Execute Mint.cdc transaction with address parameter with 0x05 and fill other parameters
-4. Execute ReadScript.cdc with address parameter with 0x05
+3. we now create the collection by deploying Collection.cdc 
+4. Execute Mint.cdc transaction with address parameter with 0x05 and fill other parameters
+5. Execute ReadScript.cdc with address parameter with the address where the NFT is stored 
 
 
 
